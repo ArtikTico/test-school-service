@@ -6,6 +6,6 @@ entity Students : cuid, managed {
     key ID: Integer;
     firstname: String(100) @mandatory; 
     lastname: String (100) @mandatory;
-    schools: Association to many SchoolToStudents on schools.student = $self;
+    schools: Association to many SchoolToStudents on schools.students = $self;
 }
 

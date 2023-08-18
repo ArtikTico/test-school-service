@@ -49,6 +49,10 @@
 			<groupId>com.sap.cds</groupId>
 			<artifactId>cds-starter-cloudfoundry</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -94,7 +98,7 @@
 							<goal>install-node</goal>
 						</goals>
 						<configuration>
-							<skip>${cdsdk-global}</skip>
+							<skip>${CDSDK_GLOBAL}</skip>
 						</configuration>
 					</execution>
 
@@ -104,7 +108,7 @@
 							<goal>install-cdsdk</goal>
 						</goals>
 						<configuration>
-							<skip>${cdsdk-global}</skip>
+							<skip>${CDSDK_GLOBAL}</skip>
 						</configuration>
 					</execution>
 

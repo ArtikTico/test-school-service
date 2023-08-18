@@ -23,7 +23,6 @@
 
 	<modules>
 		<module>srv</module>
-		<module>integration-tests</module>
 	</modules>
 
 	<dependencyManagement>
@@ -52,6 +51,7 @@
 		<plugins>
 			<!-- JAVA VERSION -->
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.11.0</version>
 				<configuration>
@@ -67,12 +67,6 @@
 				<configuration>
 					<skip>true</skip>
 				</configuration>
-			</plugin>
-
-			<!-- SUREFIRE VERSION -->
-			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.1.0</version>
 			</plugin>
 
 			<!-- POM FLATTENING FOR CI FRIENDLY VERSIONS -->
@@ -104,6 +98,7 @@
 
 			<!-- PROJECT STRUCTURE CHECKS -->
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
 				<version>3.3.0</version>
 				<executions>

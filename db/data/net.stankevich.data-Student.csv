@@ -1,0 +1,6 @@
+ID,firstname,lastname,createdAt,createdBy,modifiedAt,modifiedBy
+1,Harry,Potter,2023-07-19T12:00:00Z,User1,2023-07-19T12:00:00Z,User1
+2,Viktor,Kram,2023-07-19T12:00:00Z,User2,2023-07-19T12:00:00Z,User2
+3,Fler,Delakur,2023-07-19T12:00:00Z,User3,2023-07-19T12:00:00Z,User3
+4,Ron,Yisley,2023-07-19T12:00:00Z,User4,2023-07-19T12:00:00Z,User4
+5,Madiva,Oanay,2023-07-19T12:00:00Z,User5,2023-07-19T12:00:00Z,User5
