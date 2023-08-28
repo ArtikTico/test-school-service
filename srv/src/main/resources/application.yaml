@@ -6,3 +6,5 @@ cds:
   data-source:
     auto-config:
       by-default: false
+server:
+  port: 8081
